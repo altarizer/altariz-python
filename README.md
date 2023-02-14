@@ -1,2 +1,2 @@
 # altariz-python
-altariz python3
+altariz's python3 utils (https://altariz.com)
