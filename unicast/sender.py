@@ -40,7 +40,7 @@ class sender:
 
 
     frame = pickle.dumps(frame)
-    print("sent frame size : {} bytes".format(len(frame)))
+    #print("sent frame size : {} bytes".format(len(frame)))
         
     # sendall : send datas
     # struct.pack : big endian
