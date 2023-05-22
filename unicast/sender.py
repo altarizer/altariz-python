@@ -38,7 +38,7 @@ class sender:
     frame[-3:]= np.array([[int(hexas[-3], 16), int(hexas[-2], 16), int(hexas[-1], 16) ]]).astype(np.uint32)
     #print(frame)
 
-
+ 
     frame = pickle.dumps(frame)
     #print("sent frame size : {} bytes".format(len(frame)))
         
